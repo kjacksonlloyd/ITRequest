@@ -1,11 +1,22 @@
 Screen4 As screen:
 
-    Label5 As label:
-        Height: =347
+    Title_text_1 As label:
+        Color: =RGBA(241, 244, 249, 1)
+        Height: =68
         Size: =40
-        Text: ="Screen4"
-        Width: =527
-        X: =478
-        Y: =198
-        ZIndex: =1
+        Text: ="REQUEST DESCRIPTION"
+        Width: =961
+        X: =34
+        Y: =16
+        ZIndex: =3
+
+    "'*_text_1' As label":
+        Color: =RGBA(168, 0, 0, 1)
+        Height: =56
+        Text: |-
+            ="Note:  Please fill up all mandatory fields. Incomplete request form will be rejected. ( * depict mandatory fields)"
+        Width: =529
+        X: =811
+        Y: =22
+        ZIndex: =4
 
