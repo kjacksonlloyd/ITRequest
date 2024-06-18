@@ -14,35 +14,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen2"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Screen2",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "module": "Screen2",
-                "type": "Screen2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Low"
-          },
-          "ruleId": "acc-ReadableScreenNameNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "Screen1"
                 }
               ],
@@ -102,19 +73,18 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen2.ScreenContainer1.MainContainer1.FormContainer1.Form1.'Active Stage Started On_DataCard1'.HourValue1.AccessibleLabel"
+                  "fullyQualifiedName": "Screen3"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen2.ScreenContainer1.MainContainer1.FormContainer1.Form1.'Active Stage Started On_DataCard1'.HourValue1.AccessibleLabel",
+                  "fullyQualifiedName": "Screen3",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "AccessibleLabel",
-                "module": "Screen2",
-                "type": "Screen2.ScreenContainer1.MainContainer1.FormContainer1.Form1.'Active Stage Started On_DataCard1'.HourValue1"
+                "module": "Screen3",
+                "type": "Screen3"
               }
             }
           ],
@@ -122,130 +92,10 @@
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "Low"
           },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Screen2.ScreenContainer1.MainContainer1.FormContainer1.Form1.'Active Stage Started On_DataCard1'.MinuteValue1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Screen2.ScreenContainer1.MainContainer1.FormContainer1.Form1.'Active Stage Started On_DataCard1'.MinuteValue1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Screen2",
-                "type": "Screen2.ScreenContainer1.MainContainer1.FormContainer1.Form1.'Active Stage Started On_DataCard1'.MinuteValue1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Screen2.ScreenContainer1.MainContainer1.FormContainer1.Form1.'Completed On_DataCard1'.HourValue2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Screen2.ScreenContainer1.MainContainer1.FormContainer1.Form1.'Completed On_DataCard1'.HourValue2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Screen2",
-                "type": "Screen2.ScreenContainer1.MainContainer1.FormContainer1.Form1.'Completed On_DataCard1'.HourValue2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Screen2.ScreenContainer1.MainContainer1.FormContainer1.Form1.'Completed On_DataCard1'.MinuteValue2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Screen2.ScreenContainer1.MainContainer1.FormContainer1.Form1.'Completed On_DataCard1'.MinuteValue2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Screen2",
-                "type": "Screen2.ScreenContainer1.MainContainer1.FormContainer1.Form1.'Completed On_DataCard1'.MinuteValue2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Screen2.ScreenContainer1.MainContainer1.FormContainer1.Form1.Attachments_DataCard1.DataCardValue4.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Screen2.ScreenContainer1.MainContainer1.FormContainer1.Form1.Attachments_DataCard1.DataCardValue4.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Screen2",
-                "type": "Screen2.ScreenContainer1.MainContainer1.FormContainer1.Form1.Attachments_DataCard1.DataCardValue4"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleId": "acc-ReadableScreenNameNeeded",
+          "ruleIndex": 0
         }
       ],
       "tool": {
