@@ -140,14 +140,6 @@ Screen2 As screen:
         Y: =204
         ZIndex: =17
 
-    TextInput4_4 As text:
-        Default: =
-        Height: =33
-        Width: =223
-        X: =547
-        Y: =245
-        ZIndex: =18
-
     DataCardKey5_5 As label:
         Height: =27
         Size: =20
@@ -174,4 +166,12 @@ Screen2 As screen:
         X: =126
         Y: =570
         ZIndex: =21
+
+    TextInput4_4 As text:
+        Default: =
+        Height: =42
+        Width: =233
+        X: =540
+        Y: =249
+        ZIndex: =22
 
