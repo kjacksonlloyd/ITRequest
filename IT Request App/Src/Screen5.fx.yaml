@@ -211,7 +211,6 @@ Screen5 As screen:
         ZIndex: =26
 
     Label2_5 As label:
-        FontWeight: =FontWeight.Bold
         Height: =78
         Size: =20
         Text: ="Justification for the request or risk if request is not completed*"
@@ -230,7 +229,6 @@ Screen5 As screen:
         ZIndex: =28
 
     Label2_6 As label:
-        FontWeight: =FontWeight.Bold
         Height: =56
         Size: =20
         Text: ="Is this a request budgeted in this year's Business Plan? *"
