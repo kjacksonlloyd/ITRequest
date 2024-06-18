@@ -3,14 +3,17 @@
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
+    "Dropdown1": 10,
     "Host": 3,
-    "Label1": 5,
-    "Label2": 6,
-    "Screen1": 4
+    "Label1": 6,
+    "Label2": 5,
+    "Label2_1": 8,
+    "Screen1": 4,
+    "Title": 7
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "06/18/2024 02:31:06",
+  "HeaderLastSavedDateTimeUTC": "06/18/2024 02:35:39",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": true,
@@ -18,39 +21,49 @@
   "LocalResourceRootPaths": {},
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
-  "OrderDataSource": {},
+  "OrderDataSource": {
+    "DropDownSample": 0
+  },
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
+    "dropdown": 1,
     "label": 0
   },
   "OverridablePropertiesEntry": {
     "App": {},
+    "Dropdown1": {},
     "Host": {},
     "Label1": {},
     "Label2": {},
-    "Screen1": {}
+    "Label2_1": {},
+    "Screen1": {},
+    "Title": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
   "PublishOrderIndices": {
     "App": 0,
+    "Dropdown1": 0,
     "Host": 0,
     "Label1": 4,
     "Label2": 0,
-    "Screen1": 3
+    "Label2_1": 1,
+    "Screen1": 3,
+    "Title": 0
   },
   "ResourcesJsonIndices": {},
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.0479196,
+    "AnalysisLoadTime": 0.050145,
     "ControlCount": {
-      "label": 1,
+      "dropdown": 1,
+      "label": 4,
       "screen": 1
     },
-    "DeserializationLoadTime": 0.4455897
+    "DeserializationLoadTime": 0.4565894
   },
   "WasLocalDatabaseReferencesEmpty": true
 }
