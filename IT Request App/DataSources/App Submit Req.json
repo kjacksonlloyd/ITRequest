@@ -1,0 +1,108 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "new_appsubmitreqs",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "new_appsubmitreq",
+    "Name": "App Submit Req",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "{Attachments}": "Attachments",
+      "activestageid": "Active Stage",
+      "activestagestartedon": "Active Stage Started On",
+      "bpf_contexturl": "Context URL",
+      "bpf_duration": "Duration",
+      "bpf_name": "Name",
+      "bpf_new_appsubmitreq_new_appsubmitreq": "App Submit Req (bpf_new_appsubmitreq_new_appsubmitreq)",
+      "bpf_new_appsubmitreqid": "New_Appsubmitreq",
+      "businessprocessflowinstanceid": "App Submit Req (businessprocessflowinstanceid)",
+      "completedon": "Completed On",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "new_appsubmitreq_Annotations": "Notes",
+      "new_appsubmitreq_AsyncOperations": "System Jobs",
+      "new_appsubmitreq_BulkDeleteFailures": "Bulk Delete Failures",
+      "new_appsubmitreq_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "new_appsubmitreq_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "new_appsubmitreq_ProcessSession": "Process Sessions",
+      "new_appsubmitreq_SyncErrors": "Sync Errors",
+      "new_appsubmitreq_WorkflowLogs": "Process Logs",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "processid": "Process",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "traversedpath": "Traversed Path",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "App Submit Req",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "App Submit Req (Views)",
+    "Name": "_new_appsubmitreq_views",
+    "RelatedEntityName": "App Submit Req",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "177333c3-16a1-4709-ac75-6aec6cc74d78": "Active App Submit Req",
+      "5398e785-610f-40f2-81cd-b8c36df148ca": "App Submit Req Lookup View",
+      "6cd5d370-7580-4630-8d0d-46418dbc7814": "All App Submit Req",
+      "920fb38d-2bbe-4903-8aa9-27cd48a80b51": "App Submit Req Associated View",
+      "952709d3-089d-447e-986d-6520f332d1d1": "Inactive App Submit Req",
+      "e4956f2d-4d37-4f15-bdf7-4079e740f561": "App Submit Req Advanced Find View"
+    }
+  },
+  {
+    "DisplayName": "Status (App Submit Req)",
+    "Name": "new_appsubmitreq_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "App Submit Req"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "App Submit Req",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (App Submit Req)",
+    "Name": "new_appsubmitreq_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Finished",
+      "3": "Aborted"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "App Submit Req"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "App Submit Req",
+    "Type": "OptionSetInfo"
+  }
+]

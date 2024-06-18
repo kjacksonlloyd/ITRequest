@@ -1,20 +1,9 @@
 {
   "ComponentIndexes": {},
   "ControlUniqueGuids": {},
-  "ControlUniqueIds": {
-    "App": 1,
-    "Button1": 10,
-    "Dropdown1": 7,
-    "Host": 3,
-    "Label2_1": 8,
-    "Screen1": 5,
-    "Screen2": 9,
-    "Screen3": 4,
-    "Title": 6
-  },
+  "ControlUniqueIds": {},
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "06/18/2024 03:15:30",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -22,52 +11,16 @@
   "LocalResourceRootPaths": {},
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
-  "OrderDataSource": {
-    "DropDownSample": 0
-  },
+  "OrderDataSource": {},
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {
-    "button": 2,
-    "dropdown": 1,
-    "label": 0
-  },
-  "OverridablePropertiesEntry": {
-    "App": {},
-    "Button1": {},
-    "Dropdown1": {},
-    "Host": {},
-    "Label2_1": {},
-    "Screen1": {},
-    "Screen2": {},
-    "Screen3": {},
-    "Title": {}
-  },
+  "OrderXMLTemplate": {},
+  "OverridablePropertiesEntry": {},
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
-  "PublishOrderIndices": {
-    "App": 0,
-    "Button1": 3,
-    "Dropdown1": 2,
-    "Host": 0,
-    "Label2_1": 1,
-    "Screen1": 3,
-    "Screen2": 0,
-    "Screen3": 0,
-    "Title": 0
-  },
+  "PublishOrderIndices": {},
   "ResourcesJsonIndices": {},
   "RuleScreenIdWithoutScreen": {},
-  "TemplateVersions": {},
-  "VolatileProperties": {
-    "AnalysisLoadTime": 0.0670821,
-    "ControlCount": {
-      "dropdown": 1,
-      "label": 2,
-      "screen": 2
-    },
-    "DeserializationLoadTime": 0.4243842
-  },
-  "WasLocalDatabaseReferencesEmpty": false
+  "TemplateVersions": {}
 }
