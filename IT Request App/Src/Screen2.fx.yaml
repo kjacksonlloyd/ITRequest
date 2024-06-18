@@ -1,6 +1,7 @@
 Screen2 As screen:
 
     ScreenContainer1 As groupContainer.verticalAutoLayoutContainer:
+        DropShadow: =DropShadow.None
         Height: =Parent.Height
         LayoutAlignItems: =LayoutAlignItems.Stretch
         LayoutDirection: =LayoutDirection.Vertical
@@ -10,20 +11,25 @@ Screen2 As screen:
         PaddingLeft: =16
         PaddingRight: =16
         PaddingTop: =16
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
         Width: =Parent.Width
         ZIndex: =1
 
         HeaderContainer1 As groupContainer.horizontalAutoLayoutContainer:
             AlignInContainer: =AlignInContainer.SetByContainer
+            DropShadow: =DropShadow.None
             FillPortions: =0
             Height: =75
             LayoutMinHeight: =100
             LayoutMinWidth: =250
             LayoutMode: =LayoutMode.Auto
-            RadiusBottomLeft: =8
-            RadiusBottomRight: =8
-            RadiusTopLeft: =8
-            RadiusTopRight: =8
+            RadiusBottomLeft: =0
+            RadiusBottomRight: =0
+            RadiusTopLeft: =0
+            RadiusTopRight: =0
             ZIndex: =2
 
             Header1 As Header:
@@ -55,10 +61,15 @@ Screen2 As screen:
             PaddingLeft: =2
             PaddingRight: =2
             PaddingTop: =2
+            RadiusBottomLeft: =0
+            RadiusBottomRight: =0
+            RadiusTopLeft: =0
+            RadiusTopRight: =0
             ZIndex: =4
 
             FormContainer1 As groupContainer.verticalAutoLayoutContainer:
                 AlignInContainer: =AlignInContainer.SetByContainer
+                DropShadow: =DropShadow.None
                 FillPortions: =7
                 LayoutDirection: =LayoutDirection.Vertical
                 LayoutGap: =16
@@ -70,10 +81,10 @@ Screen2 As screen:
                 PaddingLeft: =15
                 PaddingRight: =15
                 PaddingTop: =15
-                RadiusBottomLeft: =8
-                RadiusBottomRight: =8
-                RadiusTopLeft: =8
-                RadiusTopRight: =8
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
                 ZIndex: =5
 
                 Form1 As form.PowerApps_CoreControls_Form:
@@ -527,6 +538,10 @@ Screen2 As screen:
                     PaddingBottom: =10
                     PaddingRight: =24
                     PaddingTop: =10
+                    RadiusBottomLeft: =0
+                    RadiusBottomRight: =0
+                    RadiusTopLeft: =0
+                    RadiusTopRight: =0
                     ZIndex: =7
 
                     CancelButton1 As Button:

@@ -23,17 +23,6 @@ Screen1 As screen:
         Y: =346
         ZIndex: =4
 
-    Dropdown1 As dropdown:
-        Default: |
-            ="--Select a Request Type--"
-        Height: =73
-        Items: ='App Submit Req'
-        Size: =25
-        Width: =471
-        X: =589
-        Y: =374
-        ZIndex: =5
-
     Button1 As button:
         Fill: =RGBA(184, 0, 0, 1)
         Height: =72
@@ -46,4 +35,12 @@ Screen1 As screen:
         X: =596
         Y: =552
         ZIndex: =6
+
+    Dropdown1 As dropdown:
+        Items: |+
+            =["SELECT A REQUEST TYPE", "1. New Customer Opportunity", "2. Post Sale/Dist & Fulfillment", "3. Freight Forwarding"]
+            
+        X: =596
+        Y: =390
+        ZIndex: =7
 
