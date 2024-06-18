@@ -1,0 +1,264 @@
+Screen5 As screen:
+
+    Rectangle1_2 As rectangle:
+        Fill: =RGBA(128, 128, 128, 1)
+        Width: =1296
+        X: =41
+        Y: =14
+        ZIndex: =2
+
+    Label1_1 As label:
+        Color: =RGBA(168, 0, 0, 1)
+        Height: =21
+        Text: |-
+            ="Note:  Please fill up all mandatory fields. Incomplete request form will be rejected. ( * depict mandatory fields)"
+        Width: =1237
+        X: =99
+        Y: =77
+        ZIndex: =3
+
+    Label2_2 As label:
+        Color: =RGBA(241, 244, 249, 1)
+        Height: =68
+        Size: =40
+        Text: ="JUSTIFICATION"
+        Width: =961
+        X: =104
+        Y: =14
+        ZIndex: =4
+
+    Button2_2 As button:
+        Height: =70
+        OnSelect: =Navigate(Screen3)
+        Text: ="Next"
+        Width: =275
+        X: =1061
+        Y: =682
+        ZIndex: =5
+
+    DataCardKey25_3 As label:
+        Height: =30
+        Size: =20
+        Text: ="Customer Retention *"
+        Width: =303
+        Wrap: =false
+        X: =475
+        Y: =425
+        ZIndex: =7
+
+    DataCardKey5_6 As label:
+        Height: =27
+        Size: =20
+        Text: ="New Revenue *"
+        Width: =246
+        Wrap: =false
+        X: =33
+        Y: =440
+        ZIndex: =8
+
+    TextInput4_6 As text:
+        Default: =
+        Height: =42
+        Width: =233
+        X: =40
+        Y: =481
+        ZIndex: =9
+
+    TextInput4_7 As text:
+        Default: =
+        Height: =42
+        Width: =233
+        X: =53
+        Y: =296
+        ZIndex: =10
+
+    DataCardKey5_7 As label:
+        Height: =27
+        Size: =20
+        Text: ="Compliance Driven*"
+        Width: =297
+        Wrap: =false
+        X: =38
+        Y: =255
+        ZIndex: =11
+
+    DataCardKey5_8 As label:
+        Height: =30
+        Size: =20
+        Text: ="Contract Obligation*"
+        Width: =294
+        Wrap: =false
+        X: =468
+        Y: =256
+        ZIndex: =12
+
+    TextInput4_8 As text:
+        Default: =
+        Height: =42
+        Width: =233
+        X: =499
+        Y: =297
+        ZIndex: =13
+
+    DataCardKey5_9 As label:
+        Height: =34
+        Size: =20
+        Text: ="Account Operating Margin (%)*"
+        Width: =441
+        Wrap: =false
+        X: =422
+        Y: =144
+        ZIndex: =14
+
+    DataCardKey5_10 As label:
+        Height: =27
+        Size: =20
+        Text: ="Existing or New Customer*"
+        Width: =393
+        Wrap: =false
+        X: =22
+        Y: =151
+        ZIndex: =15
+
+    TextInput4_9 As text:
+        Default: =
+        Height: =42
+        Width: =233
+        X: =487
+        Y: =465
+        ZIndex: =16
+
+    Button2_3 As button:
+        Height: =70
+        OnSelect: =Navigate(Screen4)
+        Text: ="Back"
+        Width: =275
+        X: =22
+        Y: =682
+        ZIndex: =17
+
+    TextInput4_10 As text:
+        Default: =
+        Height: =42
+        Width: =233
+        X: =510
+        Y: =189
+        ZIndex: =18
+
+    Dropdown3 As dropdown:
+        Items: |-
+            =[ "Select", "Existing", "New"
+            ]
+        X: =38
+        Y: =189
+        ZIndex: =19
+
+    Label2_3 As label:
+        FontWeight: =FontWeight.Bold
+        Height: =58
+        Size: =20
+        Text: |-
+            ="Tangible Benefits:"
+        Width: =523
+        X: =279
+        Y: =367
+        ZIndex: =20
+
+    DataCardKey5_11 As label:
+        Height: =27
+        Size: =20
+        Text: ="Cost Savings *"
+        Width: =393
+        Wrap: =false
+        X: =22
+        Y: =563
+        ZIndex: =21
+
+    Dropdown3_1 As dropdown:
+        Items: |-
+            =[ "Select", "Yes", "No"
+            ]
+        X: =38
+        Y: =601
+        ZIndex: =22
+
+    Icon1 As icon.VerticalLine:
+        Height: =426
+        Icon: =Icon.VerticalLine
+        Width: =59
+        X: =853
+        Y: =129
+        ZIndex: =23
+
+    Label2_4 As label:
+        FontWeight: =FontWeight.Bold
+        Height: =64
+        Size: =20
+        Text: |-
+            ="Intangible Benefits: (please elaborate)"
+        Width: =363
+        X: =973
+        Y: =132
+        ZIndex: =24
+
+    Label7 As label:
+        BorderThickness: =1
+        Height: =164
+        Text: =""
+        Width: =359
+        X: =938
+        Y: =205
+        ZIndex: =26
+
+    Label2_5 As label:
+        Height: =78
+        Size: =20
+        Text: ="Justification for the request or risk if request is not completed*"
+        Width: =453
+        X: =913
+        Y: =365
+        ZIndex: =27
+
+    Label7_1 As label:
+        BorderThickness: =1
+        Height: =164
+        Text: =""
+        Width: =359
+        X: =938
+        Y: =447
+        ZIndex: =28
+
+    Label2_6 As label:
+        Height: =56
+        Size: =20
+        Text: ="Is this a request budgeted in this year's Business Plan? *"
+        Width: =394
+        X: =523
+        Y: =562
+        ZIndex: =29
+
+    Label7_2 As label:
+        BorderThickness: =1
+        Height: =143
+        Text: =""
+        Width: =389
+        X: =523
+        Y: =625
+        ZIndex: =30
+
+    Icon3 As icon.HorizontalLine:
+        Height: =32
+        Icon: =Icon.HorizontalLine
+        Width: =647
+        X: =297
+        Y: =523
+        ZIndex: =31
+
+    Icon1_1 As icon.VerticalLine:
+        Height: =213
+        Icon: =Icon.VerticalLine
+        Width: =47
+        X: =359
+        Y: =555
+        ZIndex: =32
+

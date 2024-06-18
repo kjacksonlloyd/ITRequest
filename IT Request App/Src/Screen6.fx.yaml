@@ -1,0 +1,89 @@
+Screen6 As screen:
+
+    Rectangle1_3 As rectangle:
+        Fill: =RGBA(128, 128, 128, 1)
+        Height: =133
+        Width: =1296
+        X: =51
+        Y: =14
+        ZIndex: =1
+
+    Label1_2 As label:
+        Color: =RGBA(168, 0, 0, 1)
+        Height: =76
+        Text: ="Please attach/provide as many detail documents, required Business Rules, Data Flow Diagrams, Requirement Document, Integration Specification etc. If there are vendor quotations, please attach the quotation(s) in the attachment section provided at the bottom of this form"
+        Width: =1237
+        X: =80
+        Y: =71
+        ZIndex: =2
+
+    Label2_7 As label:
+        Color: =RGBA(241, 244, 249, 1)
+        Height: =68
+        Size: =40
+        Text: ="ATTACHMENTS / DOCUMENTATION"
+        Width: =961
+        X: =104
+        Y: =14
+        ZIndex: =3
+
+    Label4 As label:
+        Height: =59
+        Text: ="Attachment 1"
+        X: =80
+        Y: =229
+        ZIndex: =4
+
+    Label4_1 As label:
+        Height: =59
+        Text: ="Attachment 2"
+        X: =80
+        Y: =320
+        ZIndex: =5
+
+    Label4_2 As label:
+        Height: =59
+        Text: ="Attachment 3"
+        X: =80
+        Y: =413
+        ZIndex: =6
+
+    Label4_3 As label:
+        Height: =59
+        Text: ="Attachment 4"
+        X: =80
+        Y: =498
+        ZIndex: =7
+
+    Import1 As import:
+        Height: =35
+        Text: ="Import File"
+        Width: =340
+        X: =230
+        Y: =241
+        ZIndex: =8
+
+    Import1_1 As import:
+        Height: =35
+        Text: ="Import File"
+        Width: =340
+        X: =230
+        Y: =427
+        ZIndex: =9
+
+    Import1_2 As import:
+        Height: =35
+        Text: ="Import File"
+        Width: =340
+        X: =230
+        Y: =510
+        ZIndex: =10
+
+    Import1_3 As import:
+        Height: =35
+        Text: ="Import File"
+        Width: =340
+        X: =230
+        Y: =334
+        ZIndex: =11
+
