@@ -25,3 +25,26 @@
         Y: =22
         ZIndex: =3
 
+    TextInput1 As text:
+        Default: =
+        X: =50
+        Y: =187
+        ZIndex: =4
+
+    TextInput1_1 As text:
+        Default: =
+        X: =520
+        Y: =187
+        ZIndex: =5
+
+    TextInput1_2 As text:
+        Default: =
+        X: =20
+        Y: =564
+        ZIndex: =6
+
+    DatePicker1 As datepicker:
+        X: =570
+        Y: =187
+        ZIndex: =7
+
