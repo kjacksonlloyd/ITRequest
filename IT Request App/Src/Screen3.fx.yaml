@@ -44,7 +44,7 @@
         ZIndex: =6
 
     DatePicker1 As datepicker:
-        X: =570
+        X: =990
         Y: =187
         ZIndex: =7
 
