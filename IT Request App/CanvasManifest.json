@@ -115,7 +115,6 @@
     "FileID": "990faeda-1d86-4420-af06-298993383ad3",
     "Id": "990faeda-1d86-4420-af06-298993383ad3",
     "InstrumentationKey": "",
-    "LocalDatabaseReferences": "",
     "ManualOfflineProfileId": "",
     "Name": "IT Request App",
     "OriginatingVersion": "1.342",
@@ -135,6 +134,7 @@
   },
   "ScreenOrder": [
     "Screen1",
-    "Screen3"
+    "Screen3",
+    "Screen2"
   ]
 }

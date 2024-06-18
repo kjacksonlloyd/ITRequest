@@ -34,3 +34,16 @@ Screen1 As screen:
         Y: =368
         ZIndex: =5
 
+    Button1 As button:
+        Fill: =RGBA(184, 0, 0, 1)
+        Height: =72
+        OnSelect: =Navigate(Screen2)
+        PaddingLeft: =4
+        PaddingRight: =4
+        Size: =30
+        Text: ="NEXT"
+        Width: =200
+        X: =596
+        Y: =552
+        ZIndex: =6
+
