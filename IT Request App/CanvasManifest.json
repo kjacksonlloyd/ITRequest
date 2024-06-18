@@ -116,7 +116,7 @@
     "Id": "990faeda-1d86-4420-af06-298993383ad3",
     "InstrumentationKey": "",
     "LocalDatabaseReferences": "",
-    "ManualOfflineProfileId": null,
+    "ManualOfflineProfileId": "",
     "Name": "IT Request App",
     "OriginatingVersion": "1.342",
     "ParserErrorCount": 0,
