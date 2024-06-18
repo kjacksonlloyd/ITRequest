@@ -117,3 +117,64 @@
         Y: =319
         ZIndex: =15
 
+    TextInput1_4 As text:
+        Default: =
+        X: =50
+        Y: =509
+        ZIndex: =16
+
+    TextInput1_5 As text:
+        Default: =
+        X: =520
+        Y: =509
+        ZIndex: =17
+
+    MA_Date_2 As datepicker:
+        Format: |
+            =DateTimeFormat.ShortDate
+        X: =990
+        Y: =509
+        ZIndex: =18
+
+    Label3_6 As label:
+        Size: =19
+        Text: |-
+            ="District Manager Name:"
+        Width: =320
+        X: =50
+        Y: =469
+        ZIndex: =19
+
+    Label3_7 As label:
+        Size: =19
+        Text: |-
+            ="District Manager Email:"
+        Width: =320
+        X: =520
+        Y: =469
+        ZIndex: =20
+
+    Label3_8 As label:
+        Size: =19
+        Text: |-
+            ="District Manager Approval Date:"
+        Width: =391
+        X: =975
+        Y: =469
+        ZIndex: =21
+
+    TextInput1_6 As text:
+        Default: =
+        X: =50
+        Y: =654
+        ZIndex: =22
+
+    Label3_9 As label:
+        Size: =19
+        Text: |-
+            ="Funded By:"
+        Width: =320
+        X: =50
+        Y: =614
+        ZIndex: =23
+
