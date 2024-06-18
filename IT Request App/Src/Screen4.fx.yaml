@@ -1,0 +1,11 @@
+Screen4 As screen:
+
+    Label5 As label:
+        Height: =347
+        Size: =40
+        Text: ="Screen4"
+        Width: =527
+        X: =478
+        Y: =198
+        ZIndex: =1
+
