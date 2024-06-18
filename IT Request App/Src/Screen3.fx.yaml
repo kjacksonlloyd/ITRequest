@@ -5,7 +5,7 @@
         Width: =1366
         ZIndex: =1
 
-    Label2_2 As label:
+    Title_text As label:
         Color: =RGBA(241, 244, 249, 1)
         Height: =68
         Size: =40
@@ -15,7 +15,7 @@
         Y: =16
         ZIndex: =2
 
-    Label1_1 As label:
+    "'*_text' As label":
         Color: =RGBA(168, 0, 0, 1)
         Height: =56
         Text: |-
@@ -25,13 +25,13 @@
         Y: =22
         ZIndex: =3
 
-    TextInput1 As text:
+    MN_Input As text:
         Default: =
         X: =50
         Y: =187
         ZIndex: =4
 
-    TextInput1_1 As text:
+    ME_Input As text:
         Default: =
         X: =520
         Y: =187
@@ -43,8 +43,35 @@
         Y: =564
         ZIndex: =6
 
-    DatePicker1 As datepicker:
+    MA_Date As datepicker:
         X: =990
         Y: =187
         ZIndex: =7
+
+    Label3 As label:
+        Size: =19
+        Text: |-
+            ="Manager Name:"
+        Width: =320
+        X: =50
+        Y: =147
+        ZIndex: =8
+
+    Label3_1 As label:
+        Size: =19
+        Text: |-
+            ="Manager Email:"
+        Width: =320
+        X: =520
+        Y: =147
+        ZIndex: =9
+
+    Label3_2 As label:
+        Size: =19
+        Text: |-
+            ="Manager's Approval Date:"
+        Width: =320
+        X: =990
+        Y: =147
+        ZIndex: =10
 

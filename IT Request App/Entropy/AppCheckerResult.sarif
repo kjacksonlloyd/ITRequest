@@ -221,19 +221,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen3.TextInput1.AccessibleLabel"
+                  "fullyQualifiedName": "Screen3.MN_Input.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen3.TextInput1.AccessibleLabel",
+                  "fullyQualifiedName": "Screen3.MN_Input.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen3",
-                "type": "Screen3.TextInput1"
+                "type": "Screen3.MN_Input"
               }
             }
           ],
@@ -251,19 +251,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen3.TextInput1_1.AccessibleLabel"
+                  "fullyQualifiedName": "Screen3.ME_Input.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen3.TextInput1_1.AccessibleLabel",
+                  "fullyQualifiedName": "Screen3.ME_Input.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen3",
-                "type": "Screen3.TextInput1_1"
+                "type": "Screen3.ME_Input"
               }
             }
           ],
@@ -311,19 +311,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen3.DatePicker1.AccessibleLabel"
+                  "fullyQualifiedName": "Screen3.MA_Date.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen3.DatePicker1.AccessibleLabel",
+                  "fullyQualifiedName": "Screen3.MA_Date.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen3",
-                "type": "Screen3.DatePicker1"
+                "type": "Screen3.MA_Date"
               }
             }
           ],
