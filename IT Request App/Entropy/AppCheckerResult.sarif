@@ -102,19 +102,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen2.ScreenContainer1.MainContainer1.FormContainer1.Form1.'Active Stage Started On_DataCard1'.HourValue1.AccessibleLabel"
+                  "fullyQualifiedName": "Screen2.TextInput4_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen2.ScreenContainer1.MainContainer1.FormContainer1.Form1.'Active Stage Started On_DataCard1'.HourValue1.AccessibleLabel",
+                  "fullyQualifiedName": "Screen2.TextInput4_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen2",
-                "type": "Screen2.ScreenContainer1.MainContainer1.FormContainer1.Form1.'Active Stage Started On_DataCard1'.HourValue1"
+                "type": "Screen2.TextInput4_1"
               }
             }
           ],
@@ -132,19 +132,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen2.ScreenContainer1.MainContainer1.FormContainer1.Form1.'Active Stage Started On_DataCard1'.MinuteValue1.AccessibleLabel"
+                  "fullyQualifiedName": "Screen2.TextInput4_3.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen2.ScreenContainer1.MainContainer1.FormContainer1.Form1.'Active Stage Started On_DataCard1'.MinuteValue1.AccessibleLabel",
+                  "fullyQualifiedName": "Screen2.TextInput4_3.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen2",
-                "type": "Screen2.ScreenContainer1.MainContainer1.FormContainer1.Form1.'Active Stage Started On_DataCard1'.MinuteValue1"
+                "type": "Screen2.TextInput4_3"
               }
             }
           ],
@@ -162,19 +162,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen2.ScreenContainer1.MainContainer1.FormContainer1.Form1.'Completed On_DataCard1'.HourValue2.AccessibleLabel"
+                  "fullyQualifiedName": "Screen2.TextInput4_4.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen2.ScreenContainer1.MainContainer1.FormContainer1.Form1.'Completed On_DataCard1'.HourValue2.AccessibleLabel",
+                  "fullyQualifiedName": "Screen2.TextInput4_4.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen2",
-                "type": "Screen2.ScreenContainer1.MainContainer1.FormContainer1.Form1.'Completed On_DataCard1'.HourValue2"
+                "type": "Screen2.TextInput4_4"
               }
             }
           ],
@@ -192,19 +192,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen2.ScreenContainer1.MainContainer1.FormContainer1.Form1.'Completed On_DataCard1'.MinuteValue2.AccessibleLabel"
+                  "fullyQualifiedName": "Screen2.TextInput4_5.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen2.ScreenContainer1.MainContainer1.FormContainer1.Form1.'Completed On_DataCard1'.MinuteValue2.AccessibleLabel",
+                  "fullyQualifiedName": "Screen2.TextInput4_5.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen2",
-                "type": "Screen2.ScreenContainer1.MainContainer1.FormContainer1.Form1.'Completed On_DataCard1'.MinuteValue2"
+                "type": "Screen2.TextInput4_5"
               }
             }
           ],
@@ -222,19 +222,49 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen2.ScreenContainer1.MainContainer1.FormContainer1.Form1.Attachments_DataCard1.DataCardValue4.AccessibleLabel"
+                  "fullyQualifiedName": "Screen2.Dropdown1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen2.ScreenContainer1.MainContainer1.FormContainer1.Form1.Attachments_DataCard1.DataCardValue4.AccessibleLabel",
+                  "fullyQualifiedName": "Screen2.Dropdown1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen2",
-                "type": "Screen2.ScreenContainer1.MainContainer1.FormContainer1.Form1.Attachments_DataCard1.DataCardValue4"
+                "type": "Screen2.Dropdown1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.TextInput4_2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.TextInput4_2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen2",
+                "type": "Screen2.TextInput4_2"
               }
             }
           ],
@@ -281,19 +311,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen3.ScreenContainer2.MainContainer2.FormContainer2.Form2.'Active Stage Started On_DataCard2'.HourValue3.AccessibleLabel"
+                  "fullyQualifiedName": "Screen3.MN_Input.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen3.ScreenContainer2.MainContainer2.FormContainer2.Form2.'Active Stage Started On_DataCard2'.HourValue3.AccessibleLabel",
+                  "fullyQualifiedName": "Screen3.MN_Input.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen3",
-                "type": "Screen3.ScreenContainer2.MainContainer2.FormContainer2.Form2.'Active Stage Started On_DataCard2'.HourValue3"
+                "type": "Screen3.MN_Input"
               }
             }
           ],
@@ -311,19 +341,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen3.ScreenContainer2.MainContainer2.FormContainer2.Form2.'Active Stage Started On_DataCard2'.MinuteValue3.AccessibleLabel"
+                  "fullyQualifiedName": "Screen3.ME_Input.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen3.ScreenContainer2.MainContainer2.FormContainer2.Form2.'Active Stage Started On_DataCard2'.MinuteValue3.AccessibleLabel",
+                  "fullyQualifiedName": "Screen3.ME_Input.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen3",
-                "type": "Screen3.ScreenContainer2.MainContainer2.FormContainer2.Form2.'Active Stage Started On_DataCard2'.MinuteValue3"
+                "type": "Screen3.ME_Input"
               }
             }
           ],
@@ -341,19 +371,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen3.ScreenContainer2.MainContainer2.FormContainer2.Form2.'Completed On_DataCard2'.HourValue4.AccessibleLabel"
+                  "fullyQualifiedName": "Screen3.TextInput1_2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen3.ScreenContainer2.MainContainer2.FormContainer2.Form2.'Completed On_DataCard2'.HourValue4.AccessibleLabel",
+                  "fullyQualifiedName": "Screen3.TextInput1_2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen3",
-                "type": "Screen3.ScreenContainer2.MainContainer2.FormContainer2.Form2.'Completed On_DataCard2'.HourValue4"
+                "type": "Screen3.TextInput1_2"
               }
             }
           ],
@@ -371,19 +401,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen3.ScreenContainer2.MainContainer2.FormContainer2.Form2.'Completed On_DataCard2'.MinuteValue4.AccessibleLabel"
+                  "fullyQualifiedName": "Screen3.MA_Date.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen3.ScreenContainer2.MainContainer2.FormContainer2.Form2.'Completed On_DataCard2'.MinuteValue4.AccessibleLabel",
+                  "fullyQualifiedName": "Screen3.MA_Date.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen3",
-                "type": "Screen3.ScreenContainer2.MainContainer2.FormContainer2.Form2.'Completed On_DataCard2'.MinuteValue4"
+                "type": "Screen3.MA_Date"
               }
             }
           ],
@@ -401,19 +431,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen3.ScreenContainer2.MainContainer2.FormContainer2.Form2.Attachments_DataCard2.DataCardValue8.AccessibleLabel"
+                  "fullyQualifiedName": "Screen3.TextInput1_3.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen3.ScreenContainer2.MainContainer2.FormContainer2.Form2.Attachments_DataCard2.DataCardValue8.AccessibleLabel",
+                  "fullyQualifiedName": "Screen3.TextInput1_3.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen3",
-                "type": "Screen3.ScreenContainer2.MainContainer2.FormContainer2.Form2.Attachments_DataCard2.DataCardValue8"
+                "type": "Screen3.TextInput1_3"
               }
             }
           ],
@@ -425,6 +455,215 @@
           },
           "ruleId": "acc-AccessibleLabelNeeded",
           "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen3.MA_Date_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen3.MA_Date_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen3",
+                "type": "Screen3.MA_Date_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen3.TextInput1_4.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen3.TextInput1_4.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen3",
+                "type": "Screen3.TextInput1_4"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen3.TextInput1_5.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen3.TextInput1_5.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen3",
+                "type": "Screen3.TextInput1_5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen3.MA_Date_2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen3.MA_Date_2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen3",
+                "type": "Screen3.MA_Date_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen3.TextInput1_6.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen3.TextInput1_6.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen3",
+                "type": "Screen3.TextInput1_6"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen4"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen4",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "module": "Screen4",
+                "type": "Screen4"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Low"
+          },
+          "ruleId": "acc-ReadableScreenNameNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "App.images"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.images",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "images",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedMediaResources",
+          "ruleIndex": 2
         }
       ],
       "tool": {
@@ -464,6 +703,23 @@
                 "level": "Medium",
                 "primaryCategory": "accessibility",
                 "whyFix": "If there's no accessible text, people who can’t see the screen won't understand what’s in images and controls."
+              }
+            },
+            {
+              "id": "app-UnusedMediaResources",
+              "messageStrings": {
+                "issue": {
+                  "text": "Unused media files"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Remove the unused media file in the Media pane."
+                ],
+                "level": "Medium",
+                "primaryCategory": "performance",
+                "whyFix": "This media file is not referenced by any control formulas so it is not needed. Removing it will improve performance."
               }
             }
           ],

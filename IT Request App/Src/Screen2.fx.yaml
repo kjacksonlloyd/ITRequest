@@ -18,10 +18,12 @@ Screen2 As screen:
         ZIndex: =2
 
     Button2 As button:
+        Height: =70
         OnSelect: =Navigate(Screen3)
         Text: ="Next"
-        X: =1025
-        Y: =568
+        Width: =275
+        X: =1008
+        Y: =570
         ZIndex: =3
 
     Label2 As label:
@@ -40,41 +42,43 @@ Screen2 As screen:
             =["SELECT A REGION/DISTRICT", "North District", "South District", "China"
             ]
         Width: =306
-        X: =612
-        Y: =391
+        X: =994
+        Y: =408
         ZIndex: =7
 
     DataCardKey25_2 As label:
         Height: =27
+        Size: =20
         Text: ="Region/District *"
         Width: =256
         Wrap: =false
-        X: =612
-        Y: =344
+        X: =994
+        Y: =361
         ZIndex: =8
 
     DataCardKey5_1 As label:
         Height: =27
+        Size: =20
         Text: ="Requester Phone *"
-        Width: =226
+        Width: =246
         Wrap: =false
-        X: =356
-        Y: =344
+        X: =540
+        Y: =350
         ZIndex: =9
 
     TextInput4_1 As text:
         Default: =
         Height: =42
         Width: =233
-        X: =350
-        Y: =385
+        X: =547
+        Y: =391
         ZIndex: =10
 
     TextInput4_2 As text:
         Default: =
         Height: =42
         Width: =233
-        X: =70
+        X: =99
         Y: =391
         ZIndex: =11
 
@@ -100,61 +104,74 @@ Screen2 As screen:
 
     DataCardKey5_2 As label:
         Height: =27
+        Size: =20
         Text: ="Requester Email *"
-        Width: =226
+        Width: =256
         Wrap: =false
-        X: =87
-        Y: =347
+        X: =104
+        Y: =350
         ZIndex: =14
 
     DataCardKey5_3 As label:
-        Height: =27
-        Text: ="Customer  *"
-        Width: =226
+        Height: =33
+        Size: =20
+        Text: ="Customer Name *"
+        Width: =261
         Wrap: =false
-        X: =650
-        Y: =157
+        X: =1006
+        Y: =208
         ZIndex: =15
 
     TextInput4_3 As text:
         Default: =
         Height: =42
         Width: =233
-        X: =644
-        Y: =198
+        X: =1006
+        Y: =249
         ZIndex: =16
 
     DataCardKey5_4 As label:
-        Height: =27
+        Height: =23
+        Size: =20
         Text: ="Requester Name*"
-        Width: =226
+        Width: =246
         Wrap: =false
-        X: =354
-        Y: =154
+        X: =535
+        Y: =204
         ZIndex: =17
 
     TextInput4_4 As text:
         Default: =
-        Height: =42
-        Width: =233
-        X: =348
-        Y: =195
+        Height: =33
+        Width: =223
+        X: =547
+        Y: =245
         ZIndex: =18
 
     DataCardKey5_5 As label:
         Height: =27
+        Size: =20
         Text: ="Request Name*"
         Width: =226
         Wrap: =false
-        X: =76
-        Y: =157
+        X: =110
+        Y: =200
         ZIndex: =19
 
     TextInput4_5 As text:
         Default: =
         Height: =42
         Width: =233
-        X: =70
-        Y: =198
+        X: =104
+        Y: =241
         ZIndex: =20
+
+    Button2_1 As button:
+        Height: =70
+        OnSelect: =Navigate(Screen1)
+        Text: ="Back"
+        Width: =275
+        X: =126
+        Y: =570
+        ZIndex: =21
 
