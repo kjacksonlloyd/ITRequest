@@ -36,11 +36,14 @@ Screen1 As screen:
         Y: =552
         ZIndex: =6
 
-    Dropdown1 As dropdown:
-        Items: |+
-            =["SELECT A REQUEST TYPE", "1. New Customer Opportunity", "2. Post Sale/Dist & Fulfillment", "3. Freight Forwarding"]
-            
-        X: =596
-        Y: =390
+    Dropdown2 As dropdown:
+        Height: =80
+        Items: |-
+            =["SELECT A REQUEST TYPE", "1. New Customer Opportunity", "2. Post Sale/Dist & Fulfillment", "3. Freight Forwarding", "4. Brokerage", "5. HR", "6. Finance", "7. SP Operations", "8. BD", "9. Marketing", "10. Shared Service", "11. Internal IT", "12. Telecom/Infastructure"
+            ]
+        Size: =25
+        Width: =490
+        X: =570
+        Y: =374
         ZIndex: =7
 

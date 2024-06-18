@@ -43,19 +43,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen1.Dropdown1.AccessibleLabel"
+                  "fullyQualifiedName": "Screen1.Dropdown2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen1.Dropdown1.AccessibleLabel",
+                  "fullyQualifiedName": "Screen1.Dropdown2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen1",
-                "type": "Screen1.Dropdown1"
+                "type": "Screen1.Dropdown2"
               }
             }
           ],
