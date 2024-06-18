@@ -57,7 +57,7 @@ Screen6 As screen:
 
     Import1 As import:
         Height: =35
-        Text: ="Import Data"
+        Text: ="Import File"
         Width: =340
         X: =230
         Y: =241
@@ -65,7 +65,7 @@ Screen6 As screen:
 
     Import1_1 As import:
         Height: =35
-        Text: ="Import Data"
+        Text: ="Import File"
         Width: =340
         X: =230
         Y: =427
@@ -73,7 +73,7 @@ Screen6 As screen:
 
     Import1_2 As import:
         Height: =35
-        Text: ="Import Data"
+        Text: ="Import File"
         Width: =340
         X: =230
         Y: =510
@@ -81,7 +81,7 @@ Screen6 As screen:
 
     Import1_3 As import:
         Height: =35
-        Text: ="Import Data"
+        Text: ="Import File"
         Width: =340
         X: =230
         Y: =334
