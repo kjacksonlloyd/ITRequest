@@ -1,5 +1,10 @@
 Screen4 As screen:
 
+    Rectangle1_4 As rectangle:
+        Fill: =RGBA(128, 128, 128, 1)
+        Width: =1366
+        ZIndex: =1
+
     Title_text_1 As label:
         Color: =RGBA(241, 244, 249, 1)
         Height: =68
@@ -8,7 +13,7 @@ Screen4 As screen:
         Width: =961
         X: =34
         Y: =16
-        ZIndex: =3
+        ZIndex: =2
 
     "'*_text_1' As label":
         Color: =RGBA(168, 0, 0, 1)
@@ -18,5 +23,113 @@ Screen4 As screen:
         Width: =529
         X: =811
         Y: =22
+        ZIndex: =3
+
+    TextInput1 As text:
+        Default: ="Enter text"
+        Height: =332
+        Mode: =TextMode.MultiLine
+        PaddingTop: |
+            =0
+        Size: =20
+        Width: =327
+        X: =34
+        Y: =194
         ZIndex: =4
+
+    Label5 As label:
+        Size: =25
+        Text: |-
+            ="Business Problem:"
+        Width: =375
+        X: =34
+        Y: =132
+        ZIndex: =5
+
+    TextInput1_1 As text:
+        Default: ="Enter text"
+        Height: =332
+        Mode: =TextMode.MultiLine
+        PaddingTop: |
+            =0
+        Size: =20
+        Width: =327
+        X: =468
+        Y: =194
+        ZIndex: =6
+
+    Label5_1 As label:
+        Size: =25
+        Text: |-
+            ="Impact:"
+        Width: =375
+        X: =468
+        Y: =132
+        ZIndex: =7
+
+    TextInput1_7 As text:
+        Default: ="Enter text"
+        Height: =332
+        Mode: =TextMode.MultiLine
+        PaddingTop: |
+            =0
+        Size: =20
+        Width: =327
+        X: =903
+        Y: =194
+        ZIndex: =8
+
+    Label5_2 As label:
+        Height: =62
+        Size: =25
+        Text: |-
+            ="Opportunity Statement:"
+        Width: =437
+        X: =878
+        Y: =116
+        ZIndex: =9
+
+    Label5_3 As label:
+        Size: =25
+        Text: |-
+            ="Request Go-Live Date:"
+        Width: =375
+        X: =34
+        Y: =557
+        ZIndex: =10
+
+    DatePicker1 As datepicker:
+        Height: =55
+        Width: =360
+        X: =34
+        Y: =615
+        ZIndex: =11
+
+    Button1_3 As button:
+        Fill: =RGBA(39, 113, 194, 1)
+        Height: =72
+        OnSelect: =Navigate(Screen5)
+        PaddingLeft: =4
+        PaddingRight: =4
+        Size: =30
+        Text: ="NEXT"
+        Width: =200
+        X: =531
+        Y: =606
+        ZIndex: =12
+
+    Button1_4 As button:
+        Fill: =RGBA(39, 113, 194, 1)
+        Height: =72
+        OnSelect: |-
+            =Navigate(Screen3
+            )
+        PaddingLeft: =4
+        PaddingRight: =4
+        Size: =30
+        Text: ="BACK"
+        Width: =200
+        X: =966
+        Y: =606
+        ZIndex: =13
 
