@@ -69,48 +69,56 @@ Description2 As screen:
         ZIndex: =7
 
     Checkbox2 As checkbox:
+        Height: =55
+        Size: =15
         Text: ="Distribution"
-        X: =574
-        Y: =227
+        Width: =175
+        X: =689
+        Y: =266
         ZIndex: =8
 
     Checkbox2_1 As checkbox:
+        Size: =15
         Text: ="Hazmat"
-        X: =574
-        Y: =293
+        X: =689
+        Y: =335
         ZIndex: =9
 
     Checkbox2_2 As checkbox:
+        Size: =15
         Text: ="VMI"
-        X: =784
-        Y: =365
+        X: =924
+        Y: =398
         ZIndex: =10
 
     Checkbox2_3 As checkbox:
+        Size: =15
         Text: ="Returns"
-        X: =574
-        Y: =365
+        X: =689
+        Y: =398
         ZIndex: =11
 
     Checkbox2_4 As checkbox:
+        Size: =15
         Text: ="Service Parts"
-        X: =784
-        Y: =297
+        X: =924
+        Y: =336
         ZIndex: =12
 
     Checkbox2_5 As checkbox:
+        Size: =15
         Text: ="Planning"
-        X: =784
-        Y: =232
+        X: =924
+        Y: =268
         ZIndex: =13
 
     Label3_11 As label:
-        Height: =45
-        Size: =19
+        Height: =79
+        Size: =24
         Text: |-
             ="Scope of Opportunity (check all that apply):"
-        Width: =530
-        X: =477
+        Width: =657
+        X: =592
         Y: =187
         ZIndex: =14
 
