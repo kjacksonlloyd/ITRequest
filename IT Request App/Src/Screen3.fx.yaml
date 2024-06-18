@@ -39,11 +39,13 @@
 
     TextInput1_2 As text:
         Default: =
-        X: =20
-        Y: =564
+        X: =50
+        Y: =359
         ZIndex: =6
 
     MA_Date As datepicker:
+        Format: |
+            =DateTimeFormat.ShortDate
         X: =990
         Y: =187
         ZIndex: =7
@@ -74,4 +76,44 @@
         X: =990
         Y: =147
         ZIndex: =10
+
+    TextInput1_3 As text:
+        Default: =
+        X: =520
+        Y: =359
+        ZIndex: =11
+
+    MA_Date_1 As datepicker:
+        Format: |
+            =DateTimeFormat.ShortDate
+        X: =990
+        Y: =359
+        ZIndex: =12
+
+    Label3_3 As label:
+        Size: =19
+        Text: |-
+            ="Dept Manager Name:"
+        Width: =320
+        X: =50
+        Y: =319
+        ZIndex: =13
+
+    Label3_4 As label:
+        Size: =19
+        Text: |-
+            ="Dept Manager Email:"
+        Width: =320
+        X: =520
+        Y: =319
+        ZIndex: =14
+
+    Label3_5 As label:
+        Size: =19
+        Text: |-
+            ="Dept Manager Approval Date:"
+        Width: =365
+        X: =975
+        Y: =319
+        ZIndex: =15
 
