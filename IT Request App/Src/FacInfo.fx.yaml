@@ -1,0 +1,135 @@
+FacInfo As screen:
+
+    Rectangle1_6 As rectangle:
+        Fill: =RGBA(128, 128, 128, 1)
+        Width: =1366
+        ZIndex: =1
+
+    Title_text_3 As label:
+        Color: =RGBA(241, 244, 249, 1)
+        Height: =68
+        Size: =40
+        Text: ="REQUEST DESCRIPTION"
+        Width: =961
+        X: =34
+        Y: =16
+        ZIndex: =2
+
+    "'*_text_3' As label":
+        Color: =RGBA(168, 0, 0, 1)
+        Height: =56
+        Text: |-
+            ="Note:  Please fill up all mandatory fields. Incomplete request form will be rejected. ( * depict mandatory fields)"
+        Width: =529
+        X: =811
+        Y: =22
+        ZIndex: =3
+
+    MN_Input_2 As text:
+        Default: =
+        X: =50
+        Y: =187
+        ZIndex: =4
+
+    Label3_14 As label:
+        Size: =22
+        Text: |-
+            ="Proposed Facility:"
+        Width: =320
+        X: =50
+        Y: =147
+        ZIndex: =5
+
+    TextInput1_8 As text:
+        Default: ="Enter text"
+        Height: =354
+        Mode: =TextMode.MultiLine
+        PaddingTop: |
+            =0
+        Size: =20
+        Width: =368
+        X: =250
+        Y: =386
+        ZIndex: =6
+
+    Label5_4 As label:
+        Height: =146
+        Size: =22
+        Text: ="Specify Details (country, facility name, etc.) "
+        Width: =381
+        X: =250
+        Y: =268
+        ZIndex: =7
+
+    MN_Input_3 As text:
+        Default: =
+        X: =482
+        Y: =187
+        ZIndex: =8
+
+    Label3_15 As label:
+        Size: =22
+        Text: |-
+            ="Area size (m^2, ft^2):"
+        Width: =320
+        X: =482
+        Y: =147
+        ZIndex: =9
+
+    MN_Input_4 As text:
+        Default: =
+        X: =915
+        Y: =187
+        ZIndex: =10
+
+    Label3_16 As label:
+        Size: =22
+        Text: ="Receipt line items/day"
+        Width: =320
+        X: =915
+        Y: =143
+        ZIndex: =11
+
+    MN_Input_5 As text:
+        Default: =
+        X: =915
+        Y: =343
+        ZIndex: =12
+
+    Label3_17 As label:
+        Height: =44
+        Size: =22
+        Text: ="Shipping line items/day"
+        Width: =363
+        X: =915
+        Y: =299
+        ZIndex: =13
+
+    Button1_7 As button:
+        Fill: =RGBA(39, 113, 194, 1)
+        Height: =72
+        OnSelect: =Navigate(Screen5)
+        PaddingLeft: =4
+        PaddingRight: =4
+        Size: =30
+        Text: ="NEXT"
+        Width: =200
+        X: =975
+        Y: =476
+        ZIndex: =14
+
+    Button1_8 As button:
+        Fill: =RGBA(39, 113, 194, 1)
+        Height: =72
+        OnSelect: |-
+            =Navigate(Description2
+            )
+        PaddingLeft: =4
+        PaddingRight: =4
+        Size: =30
+        Text: ="BACK"
+        Width: =200
+        X: =975
+        Y: =602
+        ZIndex: =15
+
