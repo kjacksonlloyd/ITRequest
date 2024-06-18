@@ -1,2 +1,8 @@
 Screen1 As screen:
 
+    Label1 As label:
+        Text: ="test"
+        X: =282
+        Y: =266
+        ZIndex: =1
+
