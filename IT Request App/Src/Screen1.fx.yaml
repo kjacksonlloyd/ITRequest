@@ -1,5 +1,6 @@
 Screen1 As screen:
     Fill: =RGBA(253, 222, 207, 1)
+    OnVisible: =Set(showButtons, false)
 
     Title As label:
         Align: =Align.Center
