@@ -108,7 +108,14 @@ Screen4 As screen:
     Button1_3 As button:
         Fill: =RGBA(39, 113, 194, 1)
         Height: =72
-        OnSelect: =Navigate(Description2)
+        OnSelect: |-
+            =If(
+                Dropdown2.Selected.Value = "1. New Customer Opportunity",
+                Navigate(Description2),
+                If(
+                    !(Dropdown2.Selected.Value = "1. New Customer Opportunity"),
+                    Navigate(Screen5))
+            )
         PaddingLeft: =4
         PaddingRight: =4
         Size: =30
