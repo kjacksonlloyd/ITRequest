@@ -187,7 +187,7 @@
         Size: =30
         Text: ="NEXT"
         Width: =200
-        X: =583
+        X: =1054
         Y: =638
         ZIndex: =24
 
@@ -202,7 +202,7 @@
         Size: =30
         Text: ="BACK"
         Width: =200
-        X: =1050
+        X: =580
         Y: =638
         ZIndex: =25
 

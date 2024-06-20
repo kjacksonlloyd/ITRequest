@@ -29,7 +29,7 @@ Screen5 As screen:
 
     Button2_2 As button:
         Height: =70
-        OnSelect: =Navigate(Screen3)
+        OnSelect: =Navigate(Screen6)
         Text: ="Next"
         Width: =275
         X: =1061

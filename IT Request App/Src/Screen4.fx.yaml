@@ -114,8 +114,8 @@ Screen4 As screen:
         Size: =30
         Text: ="NEXT"
         Width: =200
-        X: =531
-        Y: =606
+        X: =966
+        Y: =597
         ZIndex: =12
 
     Button1_4 As button:
@@ -129,7 +129,7 @@ Screen4 As screen:
         Size: =30
         Text: ="BACK"
         Width: =200
-        X: =966
-        Y: =606
+        X: =555
+        Y: =597
         ZIndex: =13
 
