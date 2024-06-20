@@ -1,6 +1,6 @@
 Screen1 As screen:
     Fill: =RGBA(253, 222, 207, 1)
-    OnVisible: =Set(showButtons, false)
+    OnVisible: =true
 
     Title As label:
         Align: =Align.Center
@@ -27,7 +27,11 @@ Screen1 As screen:
     Button1 As button:
         Fill: =RGBA(184, 0, 0, 1)
         Height: =72
-        OnSelect: =Navigate(Screen2)
+        OnSelect: |-
+            =If(
+                Dropdown2.Selected.Value = "SELECT A REQUEST TYPE",
+                Notify("Please select a request type.", NotificationType.Error),
+                Navigate(Screen2) )
         PaddingLeft: =4
         PaddingRight: =4
         Size: =30
