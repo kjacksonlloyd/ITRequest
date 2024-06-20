@@ -84,7 +84,8 @@ FacInfo As screen:
 
     Label3_16 As label:
         Size: =22
-        Text: ="Receipt line items/day"
+        Text: |-
+            ="Receipt line items/day:"
         Width: =320
         X: =915
         Y: =143
@@ -99,7 +100,8 @@ FacInfo As screen:
     Label3_17 As label:
         Height: =44
         Size: =22
-        Text: ="Shipping line items/day"
+        Text: |-
+            ="Shipping line items/day:"
         Width: =363
         X: =915
         Y: =299
