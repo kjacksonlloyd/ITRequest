@@ -7,7 +7,7 @@ Screen1 As screen:
         Font: =Font.Arial
         Height: =87
         Size: =50
-        Text: ="IT  Project Request Form"
+        Text: ="IT Project Request Form"
         Width: =828
         X: =296
         Y: =192
