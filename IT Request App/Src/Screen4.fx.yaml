@@ -26,8 +26,9 @@ Screen4 As screen:
         ZIndex: =3
 
     TextInput1 As text:
-        Default: ="Enter text"
+        Default: =""
         Height: =332
+        HintText: ="Enter text"
         Mode: =TextMode.MultiLine
         PaddingTop: |
             =0
@@ -47,8 +48,9 @@ Screen4 As screen:
         ZIndex: =5
 
     TextInput1_1 As text:
-        Default: ="Enter text"
+        Default: =""
         Height: =332
+        HintText: ="Enter text"
         Mode: =TextMode.MultiLine
         PaddingTop: |
             =0
@@ -68,8 +70,9 @@ Screen4 As screen:
         ZIndex: =7
 
     TextInput1_7 As text:
-        Default: ="Enter text"
+        Default: =""
         Height: =332
+        HintText: ="Enter text"
         Mode: =TextMode.MultiLine
         PaddingTop: |
             =0
